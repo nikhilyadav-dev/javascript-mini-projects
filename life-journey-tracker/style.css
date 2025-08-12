@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+.background {
+  background-image: url("./images/clock.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.container h1 {
+  color: black;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.dob-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.dob-container .dob-icon {
+  color: white;
+  font-size: 4rem;
+}
+
+.dob-container .dob-inputs input {
+  padding: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+}
+
+.dob-container .dob-inputs button {
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+}
+
+.time-container {
+  display: flex;
+  color: black;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  line-height: 4rem;
+  justify-content: center;
+}
+
+.time-container h2 div {
+  font-size: 4rem;
+}
+
+.hide {
+  display: none;
+}
