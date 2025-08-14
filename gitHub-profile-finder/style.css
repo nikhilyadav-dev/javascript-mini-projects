@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.input-container .input {
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.search {
+  padding: 0.6rem 1rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+}
+
+.input-container .search:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+.input-container .search:active {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Profile CSS */
+
+.profile-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.profile-container:hover {
+  transform: rotate(-2deg) scale(1.01);
+  transition: 0.5s ease-in;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  max-width: 78rem;
+  margin-top: 3rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-section .left {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.left .avtar {
+  height: 100px;
+  width: 100px;
+}
+
+.avtar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.about {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.8rem;
+}
+
+.status-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.status {
+  text-align: center;
+}
