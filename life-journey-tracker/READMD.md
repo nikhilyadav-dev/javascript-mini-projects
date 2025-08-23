@@ -4,7 +4,7 @@ A fun and interactive web app that calculates **how much of your life journey ha
 
 ---
 
-## 📌 Features
+## 📌 Features 
 
 - **Date of Birth Input**: Enter your DOB to start tracking.
 - **Live Time Update**: See your exact life duration updating every second.
