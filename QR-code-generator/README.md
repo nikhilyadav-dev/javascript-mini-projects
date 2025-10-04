@@ -5,7 +5,7 @@ It allows users to input text or links and instantly generate a scannable QR cod
 
 ---
 
-## 🚀 Features
+## 🚀 Features 
 
 - Generate QR codes for text or URLs
 - Clean and minimal user interface
