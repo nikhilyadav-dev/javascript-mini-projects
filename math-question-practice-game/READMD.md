@@ -1,4 +1,4 @@
-# Math Question Game ⏳
+ # Math Question Game ⏳
 
 ## A simple and fun **math quiz game** built using **HTML, CSS, and JavaScript**. The game displays random math questions, and the player earns points for every correct answer. It also uses **Toastify.js** for colorful notification toasts!
 
